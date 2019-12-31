@@ -39,17 +39,6 @@ class Box {
   move() {
       let pushVec = Matter.Vector.create(-2, 0)
       Matter.Body.translate(this.body, pushVec)
-      // const pos = this.body.position
-      // const angle = this.body.angle
-      // push()
-      // translate(pos.x, pos.y)
-      // rotate(angle)
-      // fill(134, 187, 72)
-      // rectMode(CENTER)
-      // rect(0, 0, this.w, this.h)
-      // // imageMode(CENTER);
-      // // image(boxImg, 0, 0, this.w, this.h);
-      // pop()
   }
 
 }
